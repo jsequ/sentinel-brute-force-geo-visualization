@@ -6,7 +6,6 @@ This project demonstrates detection and visualization of potential brute-force a
 
 The objective was to identify geographic patterns of repeated failed sign-in attempts and build an operational monitoring layer to improve investigation speed, visibility, and threat prioritization.
 
-<img width="1919" height="791" alt="image" src="https://github.com/user-attachments/assets/d5cad6e6-4127-4b5f-8ae9-7a143cda9626" />
 ---
 
 ## Objective
@@ -38,6 +37,7 @@ The detection logic aggregates failed authentication attempts and groups them by
 4. Visualize results using a Sentinel Workbook map.
 5. Use geographic concentration to prioritize high-volume sources for investigation.
 
+<img width="1919" height="791" alt="image" src="https://github.com/user-attachments/assets/d5cad6e6-4127-4b5f-8ae9-7a143cda9626" />
 ---
 
 ## KQL Query
