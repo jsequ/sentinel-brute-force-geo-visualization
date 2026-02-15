@@ -49,4 +49,6 @@ SigninLogs
 
 ---
 
-<img width="1919" height="791" alt="image" src="https://github.com/user-attachments/assets/087310e2-4089-4a4a-ab32-902042186568" />
+## Dashboard Overview
+
+![Sentinel Brute Force Dashboard](https://github.com/user-attachments/assets/087310e2-4089-4a4a-ab32-902042186568)
