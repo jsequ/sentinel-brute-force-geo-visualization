@@ -1,6 +1,4 @@
-# sentinel-brute-force-geo-visualization
-
-Project: Azure Sentinel Brute Force Geo Analysis
+# Azure Sentinel Brute Force Geo Analysis
 Objective
 
 Detect and visualize brute-force login attempts using Microsoft Sentinel.
