@@ -46,3 +46,5 @@ SigninLogs
 | extend Country = tostring(LocationDetails.countryOrRegion)
 | where isnotempty(Country)
 | summarize FailedAttempts = count() by Country
+
+<img width="1919" height="791" alt="image" src="https://github.com/user-attachments/assets/087310e2-4089-4a4a-ab32-902042186568" />
