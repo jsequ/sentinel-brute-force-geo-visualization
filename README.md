@@ -39,9 +39,9 @@ The detection logic aggregates failed authentication attempts and groups them by
 
 ---
 
-<img width="1919" height="791" alt="image" src="https://github.com/user-attachments/assets/d5cad6e6-4127-4b5f-8ae9-7a143cda9626" />
-
 ## KQL Query
+
+<img width="1919" height="791" alt="image" src="https://github.com/user-attachments/assets/d5cad6e6-4127-4b5f-8ae9-7a143cda9626" />
 
 ```kql
 SigninLogs
