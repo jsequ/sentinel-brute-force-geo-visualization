@@ -49,8 +49,7 @@ SigninLogs
 | extend Country = tostring(LocationDetails.countryOrRegion)
 | where isnotempty(Country)
 | summarize FailedAttempts = count() by Country
-| sort by FailedAttempts desc
-```markdown
+| sort by FailedAttempts desc```markdown
 ## 📊 Dashboard Overview
 
 ![Sentinel Brute Force Dashboard](https://github.com/user-attachments/assets/d5cad6e6-4127-4b5f-8ae9-7a143cda9626)
