@@ -5,6 +5,7 @@
 This project demonstrates detection and visualization of potential brute-force authentication activity using Microsoft Sentinel and Kusto Query Language (KQL).
 
 The objective was to identify geographic patterns of repeated failed sign-in attempts and build an operational monitoring layer to improve investigation speed, visibility, and threat prioritization.
+
 <img width="1919" height="791" alt="image" src="https://github.com/user-attachments/assets/d5cad6e6-4127-4b5f-8ae9-7a143cda9626" />
 ---
 
