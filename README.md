@@ -36,6 +36,7 @@ The detection logic aggregates failed authentication attempts and groups them by
 3. Aggregate failed attempts by country.
 4. Visualize results using a Sentinel Workbook map.
 5. Use geographic concentration to prioritize high-volume sources for investigation.
+<img width="1919" height="791" alt="image" src="https://github.com/user-attachments/assets/d5cad6e6-4127-4b5f-8ae9-7a143cda9626" />
 
 ---
 
@@ -49,3 +50,8 @@ SigninLogs
 | where isnotempty(Country)
 | summarize FailedAttempts = count() by Country
 | sort by FailedAttempts desc
+
+```markdown
+## 📊 Dashboard Overview
+
+![Sentinel Brute Force Dashboard](https://github.com/user-attachments/assets/d5cad6e6-4127-4b5f-8ae9-7a143cda9626)
