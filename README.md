@@ -50,7 +50,6 @@ SigninLogs
 | where isnotempty(Country)
 | summarize FailedAttempts = count() by Country
 | sort by FailedAttempts desc
-
 ```markdown
 ## 📊 Dashboard Overview
 
